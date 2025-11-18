@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  z-index: 100;
+  position: relative;
+}
+
+.logo {
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  padding-left: 20px;
+  vertical-align: center;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.center-links a {
+  color: white;
+  margin: 0 15px;
+  font-size: 30px;
+}
+
+.right-links .btn {
+  background: #0a0a40;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.about-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-box {
+  background: #f4f4f4;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.about-box h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.about-box p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;      
+}
+
+.footer a {
+  color: #0a0a40;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.form-box {
+  background: #f4f4f4;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: #0a0a40;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.small-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+
+
+.box-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.home-box {
+  background: #f4f4f4;
+  padding: 25px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.home-box h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.home-box p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.hours-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hours-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.hours-table th,
+.hours-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.hours-table th {
+  background-color: #0a0a40;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  width: 100%;
+  height: 500px; 
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
+  display: block;
+}
+
+
+.appointment-banner {
+  width: 100%;
+  background: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.appointment-banner h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  color: #0a0a40;
+}
+
+.appointment-banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.appointment-banner-btn {
+  background: #0a0a40;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.small-img {
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+}
